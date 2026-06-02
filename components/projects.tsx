@@ -5,6 +5,7 @@ interface ProjectsProps {
       about: string
       url: string
       image?: string
+      links?: Array<{ name: string; url: string }>
     }>
   }
 }
@@ -15,7 +16,7 @@ export default function Projects({ data }: ProjectsProps) {
       <div className="max-w-5xl mx-auto">
         <div className="font-mono text-accent mb-6 flex flex-col items-center">
           <pre className="text-xs md:text-sm">╔════════════════════════════════════════════════╗</pre>
-          <pre className="text-xs md:text-sm font-bold">║ PROJECTS ║</pre>
+          <pre className="text-xs md:text-sm font-bold">║ HNG PROJECTS ║</pre>
           <pre className="text-xs md:text-sm">╚════════════════════════════════════════════════╝</pre>
         </div>
 
@@ -23,21 +24,39 @@ export default function Projects({ data }: ProjectsProps) {
           {data.projects?.map((project, index) => (
             <div
               key={index}
-              className="border-2 border-border bg-card hover:border-accent transition-all duration-300 group"
+              className="border-2 border-border bg-card hover:border-accent transition-all duration-300 group flex flex-col justify-between"
             >
-              <div className="font-mono p-4 md:p-6">
-                <div className="text-accent text-xs md:text-sm mb-2">╔═════════════════════════════════╗</div>
-                <h3 className="text-foreground font-bold text-sm md:text-base mb-2 pl-2">║ {project.title}</h3>
-                <p className="text-muted-foreground text-xs leading-relaxed mb-3 pl-2">║ {project.about}</p>
-                <div className="text-accent text-xs md:text-sm mb-2">╚═════════════════════════════════╝</div>
-                <a
-                  href={project.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block font-mono text-xs text-accent hover:text-foreground transition-colors border border-border px-3 py-1 mt-2 hover:bg-accent/10"
-                >
-                  [view project →]
-                </a>
+              <div className="font-mono p-4 md:p-6 flex-1 flex flex-col justify-between">
+                <div>
+                  <div className="text-accent text-xs md:text-sm mb-2">╔═════════════════════════════════╗</div>
+                  <h3 className="text-foreground font-bold text-sm md:text-base mb-2 pl-2">║ {project.title}</h3>
+                  <p className="text-muted-foreground text-xs leading-relaxed mb-3 pl-2">║ {project.about}</p>
+                  <div className="text-accent text-xs md:text-sm mb-2">╚═════════════════════════════════╝</div>
+                </div>
+                <div className="flex flex-wrap gap-2 mt-2 pl-2">
+                  {project.links ? (
+                    project.links.map((link, lIndex) => (
+                      <a
+                        key={lIndex}
+                        href={link.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-mono text-xs text-accent hover:text-foreground transition-colors border border-border px-3 py-1 hover:bg-accent/10"
+                      >
+                        [{link.name} →]
+                      </a>
+                    ))
+                  ) : (
+                    <a
+                      href={project.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-mono text-xs text-accent hover:text-foreground transition-colors border border-border px-3 py-1 hover:bg-accent/10"
+                    >
+                      [view project →]
+                    </a>
+                  )}
+                </div>
               </div>
             </div>
           ))}

@@ -41,121 +41,55 @@
   },
   "resume": {
     "skillmessage": "My Technical Arsenal",
-    "education": [
-      {
-        "school": "Massachusetts Institute of Technology",
-        "degree": "Master's in Computer Science",
-        "graduated": "May 2025",
-        "description": "Specializing in Distributed Systems and Machine Learning"
-      },
-      {
-        "school": "Stanford University",
-        "degree": "Bachelor's in Computer Science",
-        "graduated": "June 2022",
-        "description": "Graduated Summa Cum Laude with Honors in AI Research"
-      }
-    ],
-    "work": [
-      {
-        "company": "CyberForge Labs",
-        "title": "Lead Full-Stack Developer",
-        "years": "Jun 2023 - Present"
-      },
-      {
-        "company": "QuantumScale Inc.",
-        "title": "Senior Backend Engineer",
-        "years": "Jan 2022 - May 2023"
-      },
-      {
-        "company": "OpenSource Foundation",
-        "title": "Core Contributor",
-        "years": "Mar 2021 - Present"
-      }
-    ],
+    "education": [],
+    "work": [],
     "skills": [
       {
-        "name": "TypeScript",
+        "name": "API Design & Integration (Insighta Labs+)",
         "level": "95%"
       },
       {
-        "name": "Next.js & React",
+        "name": "Authentication & Authorization (Insighta Labs+)",
+        "level": "92%"
+      },
+      {
+        "name": "Database Design & Optimization (Insighta Labs+)",
         "level": "90%"
       },
       {
-        "name": "Python & FastAPI",
-        "level": "85%"
+        "name": "Large-Scale Data Ingestion (Insighta Labs+)",
+        "level": "94%"
       },
       {
-        "name": "Rust",
-        "level": "80%"
+        "name": "Low-Level File I/O & Data Structures (Event Store)",
+        "level": "91%"
       },
       {
-        "name": "PostgreSQL & Redis",
-        "level": "88%"
-      },
-      {
-        "name": "Docker & Kubernetes",
-        "level": "82%"
-      },
-      {
-        "name": "Machine Learning",
-        "level": "75%"
-      },
-      {
-        "name": "GraphQL",
-        "level": "87%"
+        "name": "System Architecture (NestJS / TS)",
+        "level": "89%"
       }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "NeuroChat AI",
-        "about": "An advanced AI chatbot platform powered by GPT-4 and custom fine-tuned models. Features real-time streaming, context awareness, and multi-language support for enterprise-grade conversations.",
-        "image": "/byte.png",
-        "url": "https://neurochat.ai"
+        "title": "Insighta Labs+ (Demographic Intelligence System)",
+        "about": "A demographic intelligence platform that processes, stores, and queries structured profile data, supporting both CLI and Web clients. Built with Node.js/TypeScript, PostgreSQL, and GitHub OAuth.",
+        "url": "https://github.com/elijaharhinful/profile-api",
+        "links": [
+          { "name": "Profile API", "url": "https://github.com/elijaharhinful/profile-api" },
+          { "name": "Gender Classify API", "url": "https://github.com/elijaharhinful/gender-classify-api" },
+          { "name": "CLI Client", "url": "https://github.com/elijaharhinful/insighta-cli" },
+          { "name": "Web Client", "url": "https://github.com/elijaharhinful/insighta-web" }
+        ]
       },
       {
-        "title": "CloudSync Pro",
-        "about": "A real-time collaboration suite that syncs documents, code, and designs across teams. Built with WebSockets, operational transformation algorithms, and distributed systems architecture.",
-        "image": "/akshaya.png",
-        "url": "https://cloudsync.pro"
-      },
-      {
-        "title": "CodeForge IDE",
-        "about": "A browser-based IDE with live collaboration, AI-powered code completion, and integrated deployment pipelines. Supports 20+ programming languages with extensible plugin system.",
-        "image": "/devdump.png",
-        "url": "https://codeforge.dev"
-      },
-      {
-        "title": "FinanceFlow",
-        "about": "A comprehensive financial management platform for startups and freelancers. Features automated invoicing, expense tracking, tax calculations, and real-time analytics dashboards.",
-        "image": "/furnace.png",
-        "url": "https://financeflow.app"
-      },
-      {
-        "title": "SmartCommit VS Code Extension",
-        "about": "An intelligent Git assistant that analyzes code changes and generates contextual commit messages using Claude AI. Includes automatic branch naming and PR description generation.",
-        "image": "/leegit.png",
-        "url": "https://marketplace.visualstudio.com/items?itemName=ElijahArhinful.smartcommit"
-      },
-      {
-        "title": "APIGuardian",
-        "about": "A security-focused API gateway with built-in rate limiting, authentication, request validation, and real-time threat detection. Protects microservices with zero-trust architecture.",
-        "image": "/byte.png",
-        "url": "https://apiguardian.io"
-      }
-    ]
-  },
-  "testimonials": {
-    "testimonials": [
-      {
-        "text": "Elijah's technical expertise and problem-solving abilities are outstanding. They transformed our entire infrastructure and reduced costs by 40%.",
-        "user": "Sarah Chen, CTO at TechVentures"
-      },
-      {
-        "text": "Working with Elijah was a game-changer for our team. Their code quality and architectural decisions set new standards for our organization.",
-        "user": "Marcus Johnson, Engineering Manager"
+        "title": "Append-Only Event Store",
+        "about": "A custom, crash-resilient key-value store built entirely from scratch on top of an append-only log file. Engineered low-level Node.js file I/O operations and optimized memory indexing with direct offset seeks.",
+        "url": "https://github.com/elijaharhinful/event-store",
+        "links": [
+          { "name": "Event Store Repo", "url": "https://github.com/elijaharhinful/event-store" }
+        ]
       }
     ]
   }

@@ -3,10 +3,10 @@
 import { useEffect, useState } from "react"
 import Hero from "@/components/hero"
 import About from "@/components/about"
-import Experience from "@/components/experience"
 import Projects from "@/components/projects"
 import Skills from "@/components/skills"
-import Education from "@/components/education"
+import FeaturedDeepDive from "@/components/deep-dive"
+import LearningReflection from "@/components/reflection"
 import Contact from "@/components/contact"
 import Footer from "@/components/footer"
 
@@ -44,10 +44,10 @@ export default function Page() {
     <main className="min-h-screen bg-background">
       <Hero data={data.main} />
       <About data={data.main} />
-      <Experience data={data.resume} />
       <Projects data={data.portfolio} />
       <Skills data={data.resume} />
-      <Education data={data.resume} />
+      <FeaturedDeepDive />
+      <LearningReflection />
       <Contact data={data.main} />
       <Footer />
     </main>
