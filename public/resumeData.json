@@ -1,53 +1,41 @@
 {
   "main": {
     "name": "Elijah Arhinful",
-    "occupation": "Full-Stack Developer & AI Enthusiast",
+    "occupation": "Backend Developer",
     "description": "",
     "image": "profilepic.jpg",
-    "bio": "My name is Elijah. I'm a 24-year-old full-stack developer with a passion for building innovative web applications. I specialize in TypeScript, Python, and Rust, working with cutting-edge frameworks like Next.js, SvelteKit, and FastAPI. Currently pursuing my Master's in Computer Science at MIT. I'm also the lead developer at CyberForge Labs and an active contributor to open-source projects.",
+    "bio": "I am a backend engineer focused on building resilient, scalable systems and performant APIs. Experienced in system architecture, database optimization, and handling complex data ingestion pipelines. I prioritize clean code, thorough testing, and practical infrastructure over unnecessary complexity",
     "contactmessage": "Let's build something amazing together!",
-    "email": "Elijah.Arhinful@cyberforge.dev",
-    "phone": "+1 (555) 123-4567",
+    "email": "elijaharhinful8@gmail.com",
+    "phone": "+233 548 777 676",
     "address": {
-      "street": "77 Massachusetts Ave",
-      "city": "Cambridge",
-      "state": "Massachusetts",
-      "zip": "02139"
+      "street": "",
+      "city": "Accra",
+      "state": "Ghana",
+      "zip": "23321"
     },
     "website": "",
     "resumedownload": "",
     "social": [
       {
-        "name": "youtube",
-        "url": "https://www.youtube.com/@Elijahcodes",
-        "className": "fa fa-youtube"
+        "name": "whatsapp",
+        "url": "https://wa.me/233548777676",
+        "className": "fa fa-whatsapp"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/ElijahArhinful",
+        "url": "https://www.linkedin.com/in/elijaharhinful",
         "className": "fa fa-linkedin"
       },
       {
         "name": "github",
-        "url": "https://github.com/ElijahArhinful",
+        "url": "https://github.com/elijaharhinful",
         "className": "fa fa-github"
       },
       {
         "name": "twitter",
-        "url": "https://x.com/Elijah_codes",
+        "url": "https://x.com/defactogh",
         "className": "fa fa-twitter"
-      }
-    ],
-    "profiles": [
-      {
-        "name": "vscode-publisher",
-        "url": "https://marketplace.visualstudio.com/publishers/ElijahArhinful",
-        "className": "fa fa-box"
-      },
-      {
-        "name": "npm-profile",
-        "url": "https://www.npmjs.com/~Elijah_Arhinful",
-        "className": "fa fa-npm"
       }
     ]
   },
