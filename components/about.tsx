@@ -34,8 +34,8 @@ export default function About({ data }: AboutProps) {
             </p>
           </div>
 
-          <div className="mt-8 pt-6 border-t border-border">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 font-mono text-xs md:text-sm">
+          <div className="mt-8 pt-6 border-t border-border text-center">
+            <div className="flex flex-col md:flex-row justify-center items-center gap-x-8 gap-y-2 font-mono text-xs md:text-sm">
               <div>
                 <span className="text-accent">email:</span>{" "}
                 <a
@@ -45,12 +45,13 @@ export default function About({ data }: AboutProps) {
                   {data.email}
                 </a>
               </div>
+              <div className="hidden md:block text-muted-foreground">|</div>
               <div>
                 <span className="text-accent">phone:</span> <span className="text-muted-foreground">{data.phone}</span>
               </div>
             </div>
 
-            <div className="mt-6 flex flex-wrap gap-4">
+            <div className="mt-6 flex flex-wrap justify-center gap-4">
               {data.social?.map((social) => (
                 <a
                   key={social.name}
