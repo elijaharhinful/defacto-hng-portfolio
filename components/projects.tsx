@@ -6,6 +6,7 @@ interface ProjectsProps {
       url: string
       image?: string
       links?: Array<{ name: string; url: string }>
+      tech?: Array<string>
     }>
   }
 }
@@ -31,6 +32,18 @@ export default function Projects({ data }: ProjectsProps) {
                   <div className="text-accent text-xs md:text-sm mb-2">╔═════════════════════════════════╗</div>
                   <h3 className="text-foreground font-bold text-sm md:text-base mb-2 pl-2">║ {project.title}</h3>
                   <p className="text-muted-foreground text-xs leading-relaxed mb-3 pl-2">║ {project.about}</p>
+                  
+                  {project.tech && (
+                    <div className="text-accent text-xxs pl-2 mb-3 leading-relaxed flex flex-wrap gap-x-2 gap-y-1 items-center">
+                      <span>║ <span className="text-accent font-bold">tech:</span></span>
+                      {project.tech.map((t, tIdx) => (
+                        <span key={tIdx} className="text-muted-foreground border border-border/60 px-1 py-0.5 text-xxs bg-accent/5 font-mono">
+                          {t}
+                        </span>
+                      ))}
+                    </div>
+                  )}
+
                   <div className="text-accent text-xs md:text-sm mb-2">╚═════════════════════════════════╝</div>
                 </div>
                 <div className="flex flex-wrap gap-2 mt-2 pl-2">

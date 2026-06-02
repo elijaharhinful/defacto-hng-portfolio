@@ -33,11 +33,6 @@ export default function LearningReflection() {
                 By building an append-only database from scratch and optimizing a high-traffic query engine, I significantly deepened my understanding of database internals, memory management, and what it truly takes to scale a backend application reliably.
               </p>
             </div>
-
-            <div className="mt-8 pt-6 border-t border-border flex items-center justify-between text-muted-foreground text-xxs">
-              <div>// FOCUS: CLEAN ARCHITECTURE & RESILIENCE</div>
-              <div>// LEVEL: JUNIOR -&gt; PRODUCTION-READY</div>
-            </div>
           </div>
         </div>
       </div>

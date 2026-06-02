@@ -73,22 +73,41 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Insighta Labs+ (Demographic Intelligence System)",
-        "about": "A demographic intelligence platform that processes, stores, and queries structured profile data, supporting both CLI and Web clients. Built with Node.js/TypeScript, PostgreSQL, and GitHub OAuth.",
+        "title": "Demographic & Gender Classification API",
+        "about": "A high-performance API that integrates external microservices to analyze name strings and predict key demographic attributes (gender, age, nationality) under strict response budgets. Features aggressive caching and resilient error fallbacks.",
+        "url": "https://github.com/elijaharhinful/gender-classify-api",
+        "tech": ["Node.js", "Express", "TypeScript", "Vercel", "HTTP Caching"],
+        "links": [
+          { "name": "API Repository", "url": "https://github.com/elijaharhinful/gender-classify-api" }
+        ]
+      },
+      {
+        "title": "Insighta Labs (Demographic Search & Ingestion)",
+        "about": "A multi-client demographic intelligence engine. Features a custom rule-based query parser converting English queries into dynamic filters, and a memory-efficient chunked CSV streaming processor capable of handling up to 500,000 records without blocking reads.",
         "url": "https://github.com/elijaharhinful/profile-api",
+        "tech": ["Node.js", "Express", "TypeScript", "PostgreSQL", "GitHub OAuth"],
         "links": [
           { "name": "Profile API", "url": "https://github.com/elijaharhinful/profile-api" },
-          { "name": "Gender Classify API", "url": "https://github.com/elijaharhinful/gender-classify-api" },
           { "name": "CLI Client", "url": "https://github.com/elijaharhinful/insighta-cli" },
           { "name": "Web Client", "url": "https://github.com/elijaharhinful/insighta-web" }
         ]
       },
       {
         "title": "Append-Only Event Store",
-        "about": "A custom, crash-resilient key-value store built entirely from scratch on top of an append-only log file. Engineered low-level Node.js file I/O operations and optimized memory indexing with direct offset seeks.",
+        "about": "A lightweight, crash-resilient custom key-value store engineered from scratch. Utilizes low-level native Node.js file operations for append-only transaction logs. Employs an in-memory hash index mapping event IDs to precise byte offsets for O(1) direct reads.",
         "url": "https://github.com/elijaharhinful/event-store",
+        "tech": ["Node.js", "TypeScript", "Native File I/O", "Data Structures"],
         "links": [
           { "name": "Event Store Repo", "url": "https://github.com/elijaharhinful/event-store" }
+        ]
+      },
+      {
+        "title": "Flowbrand API (AI Funnel Generator)",
+        "about": "A collaborative funnel generation platform backend handling user state from session creation to complete marketing funnels. Integrated external AI models for automated layout synthesis.",
+        "tech": ["NestJS", "TypeScript", "Redis", "OpenAI API", "System Architecture"],
+        "url": "https://github.com/elijaharhinful/flowbrand-api",
+        "links": [
+          { "name": "Flowbrand API Repo", "url": "https://github.com/elijaharhinful/flowbrand-api" }
         ]
       }
     ]
