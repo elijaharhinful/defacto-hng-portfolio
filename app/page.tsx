@@ -23,7 +23,7 @@ export default function Page() {
     fetch("/resumeData.json")
       .then((res) => res.json())
       .then((json) => setData(json))
-      .catch((err) => console.error("[v0] Failed to load resume data:", err))
+      .catch((err) => console.error("Failed to load resume data:", err))
   }, [])
 
   if (!data) {
