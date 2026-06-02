@@ -1,12 +1,12 @@
 {
   "main": {
-    "name": "Alex Rivera",
+    "name": "Elijah Arhinful",
     "occupation": "Full-Stack Developer & AI Enthusiast",
     "description": "",
     "image": "profilepic.jpg",
-    "bio": "My name is Alex. I'm a 24-year-old full-stack developer with a passion for building innovative web applications. I specialize in TypeScript, Python, and Rust, working with cutting-edge frameworks like Next.js, SvelteKit, and FastAPI. Currently pursuing my Master's in Computer Science at MIT. I'm also the lead developer at CyberForge Labs and an active contributor to open-source projects.",
+    "bio": "My name is Elijah. I'm a 24-year-old full-stack developer with a passion for building innovative web applications. I specialize in TypeScript, Python, and Rust, working with cutting-edge frameworks like Next.js, SvelteKit, and FastAPI. Currently pursuing my Master's in Computer Science at MIT. I'm also the lead developer at CyberForge Labs and an active contributor to open-source projects.",
     "contactmessage": "Let's build something amazing together!",
-    "email": "alex.rivera@cyberforge.dev",
+    "email": "Elijah.Arhinful@cyberforge.dev",
     "phone": "+1 (555) 123-4567",
     "address": {
       "street": "77 Massachusetts Ave",
@@ -19,34 +19,34 @@
     "social": [
       {
         "name": "youtube",
-        "url": "https://www.youtube.com/@alexcodes",
+        "url": "https://www.youtube.com/@Elijahcodes",
         "className": "fa fa-youtube"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/alexrivera",
+        "url": "https://www.linkedin.com/in/ElijahArhinful",
         "className": "fa fa-linkedin"
       },
       {
         "name": "github",
-        "url": "https://github.com/alexrivera",
+        "url": "https://github.com/ElijahArhinful",
         "className": "fa fa-github"
       },
       {
         "name": "twitter",
-        "url": "https://x.com/alex_codes",
+        "url": "https://x.com/Elijah_codes",
         "className": "fa fa-twitter"
       }
     ],
     "profiles": [
       {
         "name": "vscode-publisher",
-        "url": "https://marketplace.visualstudio.com/publishers/AlexRivera",
+        "url": "https://marketplace.visualstudio.com/publishers/ElijahArhinful",
         "className": "fa fa-box"
       },
       {
         "name": "npm-profile",
-        "url": "https://www.npmjs.com/~alex_rivera",
+        "url": "https://www.npmjs.com/~Elijah_Arhinful",
         "className": "fa fa-npm"
       }
     ]
@@ -149,7 +149,7 @@
         "title": "SmartCommit VS Code Extension",
         "about": "An intelligent Git assistant that analyzes code changes and generates contextual commit messages using Claude AI. Includes automatic branch naming and PR description generation.",
         "image": "/leegit.png",
-        "url": "https://marketplace.visualstudio.com/items?itemName=AlexRivera.smartcommit"
+        "url": "https://marketplace.visualstudio.com/items?itemName=ElijahArhinful.smartcommit"
       },
       {
         "title": "APIGuardian",
@@ -162,11 +162,11 @@
   "testimonials": {
     "testimonials": [
       {
-        "text": "Alex's technical expertise and problem-solving abilities are outstanding. They transformed our entire infrastructure and reduced costs by 40%.",
+        "text": "Elijah's technical expertise and problem-solving abilities are outstanding. They transformed our entire infrastructure and reduced costs by 40%.",
         "user": "Sarah Chen, CTO at TechVentures"
       },
       {
-        "text": "Working with Alex was a game-changer for our team. Their code quality and architectural decisions set new standards for our organization.",
+        "text": "Working with Elijah was a game-changer for our team. Their code quality and architectural decisions set new standards for our organization.",
         "user": "Marcus Johnson, Engineering Manager"
       }
     ]
